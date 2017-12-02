@@ -1,6 +1,7 @@
 package de.university_stuttgart.maaanu.parsers
 
 import java.util.HashMap
+
 import scala.collection.JavaConversions._
 
 class RootProbParser extends AbstractParser {
@@ -23,5 +24,6 @@ class RootProbParser extends AbstractParser {
      for(k <- map.keySet()) {
        map.put(k, map.get(k) / n )
      }
+     map
    }
 }

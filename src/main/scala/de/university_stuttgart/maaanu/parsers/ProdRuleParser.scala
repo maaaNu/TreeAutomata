@@ -1,8 +1,6 @@
 package de.university_stuttgart.maaanu.parsers
 
-import java.util.HashMap
-import java.util.HashSet
-import scala.collection.JavaConverters._
+import java.util.{HashMap, HashSet}
 
 
 class ProdRuleParser extends AbstractParser{

@@ -1,7 +1,7 @@
 package de.university_stuttgart.maaanu.parsers
 
-import java.util.HashMap
-import java.util.HashSet
+import java.util.{HashMap, HashSet}
+
 import scala.collection.JavaConversions._
 
 class Lex2RulesParser extends AbstractParser {

@@ -1,7 +1,6 @@
 package de.university_stuttgart.maaanu.parsers
 
-import java.util.HashMap
-import java.util.HashSet
+import java.util.{HashMap, HashSet}
 
 class FreqProductionParser extends ProdRuleParser {
   val freqMap: HashMap[(String, String), Int] = new HashMap()
